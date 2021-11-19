@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Product.css'
 
 const Product = (props) => {
-    const { name, description, price, image } = props.product;
+    const { _id, name, description, price, image } = props.product;
     return (
         <div>
             <div className="col image">
@@ -16,7 +16,7 @@ const Product = (props) => {
                         <p className="card-text">{price}</p>
                     </div>
                     <div className="button">
-                        <Link to="/purchase">
+                        <Link to="purchaseitem">
                             <button>Buy Now</button>
                         </Link>
                     </div>
