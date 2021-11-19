@@ -7,6 +7,7 @@ const Register = () => {
     const [loginUser, setLoginUser] = useState({});
     const { user, error, registerUser, isLoading } = useAuth();
 
+
     const handleOnChange = e => {
         const field = e.target.name;
         const value = e.target.value;
@@ -16,11 +17,24 @@ const Register = () => {
     }
     const handleLogin = e => {
         if (loginUser.password !== loginUser.passwordConfirm) {
+
             alert('your password did not match');
             return;
-        }
-        registerUser(loginUser.email, loginUser.password,loginUser.name);
+        };
+        registerUser(loginUser.email, loginUser.password, loginUser.name);
+        const email = loginUser.email;
+        const name = loginUser.name;
+        const data = { email, name };
+
+        fetch('https://afternoon-beyond-26035.herokuapp.com/client', {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
         e.preventDefault();
+
     }
     return (
         <Container>
@@ -28,7 +42,7 @@ const Register = () => {
                 <Grid item sx={{ mt: 8 }} xs={12} md={6}>
                     <Typography variant="body1" gutterBottom>Register</Typography>
                     {!isLoading && <form onSubmit={handleLogin}>
-                    <TextField
+                        <TextField
                             sx={{ width: '75%', m: 1 }}
                             id="standard-basic"
                             label="Your Name"

@@ -5,7 +5,7 @@ const Explore = () => {
     const [allItem, setAllItem] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/services/all')
+        fetch('https://afternoon-beyond-26035.herokuapp.com/services/all')
             .then(res => res.json())
             .then(data => setAllItem(data))
     }, [])

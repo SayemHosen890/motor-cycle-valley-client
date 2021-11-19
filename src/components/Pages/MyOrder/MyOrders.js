@@ -4,7 +4,11 @@ const MyOrders = (props) => {
     const { name, address, email, number } = props.order;
     return (
         <div>
-            <h2>{name}</h2>
+            <div>
+                name:{name}
+                email:{email}
+                number:{number}
+            </div>
         </div>
     );
 };

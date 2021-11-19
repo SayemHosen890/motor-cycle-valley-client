@@ -12,7 +12,7 @@ const useFirebase = () => {
 
     const auth = getAuth();
 
-    const registerUser = (email, password,name) => {
+    const registerUser = (email, password, name) => {
         setIsLoading(true)
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
@@ -30,6 +30,15 @@ const useFirebase = () => {
             })
             .finally(() => setIsLoading(false));
     }
+
+    const [admin, setAdmin] = useState(false);
+    useEffect(() => {
+        fetch(`https://afternoon-beyond-26035.herokuapp.com/client/isAdmin/${user.email}`)
+            .then(res => res.json())
+            .then(data => {
+                setAdmin(data.admin);
+            })
+    }, [user.email])
 
     const loginUser = (email, password, location, history) => {
         setIsLoading(true)
@@ -77,6 +86,7 @@ const useFirebase = () => {
         user,
         isLoading,
         error,
+        admin,
         registerUser,
         loginUser,
         logOut,

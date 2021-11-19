@@ -6,7 +6,7 @@ const PurchaseItem = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         // console.log(data)
-        axios.post('http://localhost:5000/orders', data)
+        axios.post('https://afternoon-beyond-26035.herokuapp.com/orders', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Ordered Successfully');
