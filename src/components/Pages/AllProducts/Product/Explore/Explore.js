@@ -12,7 +12,6 @@ const Explore = () => {
 
     return (
         <div>
-            <h2>this is explore:{allItem.length}</h2>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
                     allItem.map(item => <ExploreItem
