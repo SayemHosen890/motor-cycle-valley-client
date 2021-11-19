@@ -19,6 +19,7 @@ import Purchase from './components/Pages/Purchase/Purchase';
 import AddBike from './components/Pages/AddCar/AddBike';
 import Dashboard from './components/Pages/Dashboard/Dashboard/Dashboard';
 import Order from './components/Pages/Order/Order';
+import PurchaseItem from './components/Pages/PurchaseItem/PurchaseItem';
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
+            <PrivateRoute path="/purchaseitem">
+              <PurchaseItem></PurchaseItem>
+            </PrivateRoute>
             <Route path="/register">
               <Register></Register>
             </Route>
