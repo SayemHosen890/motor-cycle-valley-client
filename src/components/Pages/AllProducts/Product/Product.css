@@ -1,0 +1,11 @@
+.image img{
+    height: 300px;
+}
+.button button{
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 25px;
+    background-color: rgb(202, 98, 80);
+}

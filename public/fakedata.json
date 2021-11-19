@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Yamaha R6",
+        "description": "Honda equips their motorcycles with better engines and technology than Yamaha, which leads to better mileage compared as well as better performance.",
+        "image": "https://www.wallpaperbetter.com/wallpaper/867/67/713/yamaha-r6-motorcycle-picture-hd-2K-wallpaper.jpg",
+        "price": "2300"
+    },
+    {
+        "name": "Bmw k1300s",
+        "description": "The motorcycle segment of the company is known as BMW Motorrad. Hence all of their motorcycles are manufactured under the concern of BMW Motorrad.",
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/b5/f0/82/b5f082b922a0c592427ec063517833c1.jpg",
+        "price": "2600"
+    },
+    {
+        "name": "Yamaha yzf-r6",
+        "description": "This BS6 150cc model is the best bike for office use, thanks to Glide-Through and Feather Touch Start technologies. It packs an oil-based cooling system and transistor-controlled ignition",
+        "id": 3,
+        "image": "https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2020/0eb31941-20e1-4443-ac66-e4f222a823cf.png",
+        "price": "3000"
+    },
+    {
+        "name": "Electric Motor",
+        "description": "An electric bicycle is a motorized bicycle with an integrated electric motor used to assist propulsion. Many kinds of e-bikes are available worldwide.",
+        "id": 4,
+        "image": "https://image.made-in-china.com/202f0j00YLMRUulDqQcw/Baby-Electric-Motor-Bike-Kids-Prime-Favorite-Battery-Motorcycle-on-Sale-R1.jpg",
+        "price": "3030"
+    },
+    {
+        "name": "Yx-800 kids",
+        "description": "One of the best commuter bikes in India, the KTM 390 Duke also makes for an ideal ride for long distances. Among the most notable features of the bike are its up-right handlebars, digital .",
+        "id": 5,
+        "image": "https://ph-live-05.slatic.net/p/4/yx-800-kids-rechargeable-ride-on-motor-bike-6505-8085349-9836c798bdad1120a1cea5e5eddfb33f-catalog.jpg_720x720q80.jpg_.webp",
+        "price": "1500"
+    },
+    {
+        "name": "Sl150-ka",
+        "description": "Lumbar spinal stenosis is an example of a condition in which most people feel better in a forward-leaning position. For those with a low back condition in which a reclining position feels",
+        "id": 6,
+        "image": "https://image.made-in-china.com/2f0j00RcKlgUQBgmro/50cc-Motorcycle-49cc-Dirt-Bike-Cargo-Two-Wheel-Motorcycle-150cc-Scooter-125cc-Scooter-50cc-Scooter.jpg",
+        "price": "1900"
+    },
+    {
+        "name": "Yamaha-r15 v3",
+        "description": "Honda equips their motorcycles with better engines and technology than Yamaha, which leads to better mileage compared as well as better performance. ",
+        "id": 7,
+        "image": "https://fairmartslive.s3.ap-south-1.amazonaws.com/public/assets/images/products/a58BQkdtiz3Q.jpg",
+        "price": "1900"
+    },
+    {
+        "name": "Kawasaki-ninja400",
+        "description": "The Kawasaki Ninja is a name given to several series of Kawasaki sport bikes that started with the 1984 GPZ900R.which leads to better mileage compared.",
+        "id": 8,
+        "image": "https://cars.usnews.com/images/new-features/widget-section/2019_Kawasaki_Ninja400_Base.jpg",
+        "price": "1900"
+    },
+    {
+        "name": "Kawasaki-ninja-600",
+        "description": "The Kawasaki Ninja is a name given to several series of Kawasaki sport bikes that started with the 1984 GPZ900R.which leads to better mileage compared.",
+        "id": 9,
+        "image": "https://www.motorcycledaily.com/wp-content/uploads/2020/11/112320index.jpg",
+        "price": "1900"
+    },
+    {
+        "name": "Apache rtr-160",
+        "description": "The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License",
+        "id": 10,
+        "image": "https://5.imimg.com/data5/BI/CO/MY-30249099/tvs-apache-rtr-160-137-kg-motorcycle-500x500.jpg",
+        "price": "1900"
+    }
+]
